@@ -1,0 +1,4 @@
+/* Allocate memory for an integer array named 'sum' and initialize a pointer 'sum' 
+ * to point to the first element of the dynamically allocated array. */
+
+int *sum = (int*)malloc(numsSize * sizeof(int));
